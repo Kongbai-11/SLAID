@@ -35,6 +35,12 @@ Ignored weight formats include:
 *.safetensors
 ```
 
+## Dataset
+
+The dataset is not included in this repository. Download it from Google Drive:
+
+https://drive.google.com/file/d/1dHDe4bnT5hAFbopLf2-zFCR7aNSXVnLL/view?usp=sharing
+
 ## Inference
 
 `python scripts/infer.py`
