@@ -1,0 +1,66 @@
+# OS / IDE
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+
+# Python cache
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.cache/
+
+# Python environments
+.env
+.venv/
+env/
+venv/
+ENV/
+conda-meta/
+
+# Build / packaging
+build/
+dist/
+*.egg-info/
+*.egg
+pip-wheel-metadata/
+wheels/
+
+# Logs and experiment outputs
+*.log
+outputs/
+output/
+results/
+training/
+lightning_logs/
+image_log/
+wandb/
+runs/
+
+# Model weights and large binary artifacts
+*.pth
+*.pt
+*.ckpt
+*.safetensors
+*.onnx
+*.bin
+*.pkl
+
+# Local datasets and scratch folders
+data/
+local_data/
+checkpoints/
+weights/
+downloads/
+tmp/
+temp/
+
+# Notebook / editor checkpoints
+.ipynb_checkpoints/
+
+# Private demo files
+gradio_pose2image_private.py
+gradio_canny2image_private.py
