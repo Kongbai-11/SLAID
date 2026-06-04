@@ -20,26 +20,11 @@ The exact CUDA, PyTorch and xFormers versions may need to match your GPU driver.
 
 ## Model Weights
 
-Model weights are not tracked by Git. Download the AnyDoor checkpoint from ModelScope:
-
-https://modelscope.cn/models/iic/AnyDoor/files
-
-After downloading the checkpoint, pass the local path with `--pretrained-model`, or update `pretrained_model` in `configs/inference.yaml`.
-
-Ignored weight formats include:
-
-```text
-*.pth
-*.pt
-*.ckpt
-*.safetensors
-```
+Model weights are not tracked by Git. Download the AnyDoor checkpoint from [ModelScope](https://modelscope.cn/models/iic/AnyDoor/files).
 
 ## Dataset
 
-The dataset is not included in this repository. Download it from Google Drive:
-
-https://drive.google.com/file/d/1dHDe4bnT5hAFbopLf2-zFCR7aNSXVnLL/view?usp=sharing
+The dataset is not included in this repository. Download it from [Downland Link(google drive)](https://drive.google.com/file/d/1dHDe4bnT5hAFbopLf2-zFCR7aNSXVnLL/view?usp=sharing).
 
 ## Inference
 
@@ -49,7 +34,3 @@ https://drive.google.com/file/d/1dHDe4bnT5hAFbopLf2-zFCR7aNSXVnLL/view?usp=shari
 
 - Do not commit checkpoints, generated outputs, local datasets or IDE files.
 - Keep third-party licenses for AnyDoor/ControlNet/Stable Diffusion/DINOv2-related code.
-
-## License
-
-See `LICENSE.txt`. Please verify third-party license compatibility before public release.
